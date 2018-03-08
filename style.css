@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    background: grey;
+}
+
+header {
+    background-color: #84cb00;
+    padding: 5px;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+    background: rgb(19, 86, 19);
+    overflow: hidden;
+    padding: 5px;
+}
+
+header nav a {
+    color: #fff;
+    background: #0a700a;
+    padding: 5px;
+}
+
+main {
+    background: white;
+    padding: 5px;
+}
+
+footer {
+    padding: 5px;
+}
