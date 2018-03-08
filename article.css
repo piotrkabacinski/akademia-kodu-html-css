@@ -1,3 +1,28 @@
 p.intro {
     font-size: 15px;
 }
+
+/* main section article img {
+    width: 50%;
+    display: block;
+    margin: auto;
+} */
+
+/* main section article .image-description {
+    text-align: center;
+    color: grey;
+    font-size: 10px;
+} */
+
+main section article figure img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+main section article figure {
+    text-align: center;
+    color: grey;
+    font-size: 10px;
+    font-style: italic;
+}
