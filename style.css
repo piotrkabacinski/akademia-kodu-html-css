@@ -28,6 +28,16 @@ main {
     padding: 5px;
 }
 
+main section {
+    overflow: hidden;
+}
+
+main section p img {
+    width: 200px;
+    float: left;
+    margin-right: 5px;
+}
+
 footer {
     padding: 5px;
 }
