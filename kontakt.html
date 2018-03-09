@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Kontakt</title>
+
+    <style>
+
+        form label {
+            width: 100px;
+            display: inline-block;
+        }
+
+        form div {
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+        <header>
+            <h1>AutoBlog</h1>
+            <nav>
+                <a href="index.html" class="article">
+                    Strona główna
+                    <div class="counter">
+                        2
+                    </div>
+                </a>
+                <a href="wspolpraca.html">Współpraca</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </header>
+
+        <main>
+            <form>
+                <div>
+                    <label for="first-name">Imię: *</label>
+                    <input type="text" name="imie" placeholder="Twoje imię" id="first-name" required>
+                </div>
+
+                <div>
+                    <label for="last-name">Nazwisko: *</label>
+                    <input type="text" name="nazwisko" placeholder="Twoje nazwisko" id="last-name" required>
+                </div>
+
+                <div>
+                    <label for="message">Wiadomość: *</label> <br>
+                    <textarea name="wiadomosc" id="message" cols="30" rows="10" required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Wyślij!</button>
+                </div>
+
+            </form>
+        </main>
+
+        <footer>
+            &copy; AutoBlog 2018
+        </footer>
+
+</body>
+</html>
