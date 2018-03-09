@@ -4,24 +4,15 @@
         <!-- Hello comment! -->
         <meta charset="UTF-8">
         <title>AutoBlog.pl</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css" type="text/css">
 
         <style>
-            .article {
-                display: inline-block;
-                position: relative;
-            }
-
-            .article .counter {
-                position: absolute;
-                padding: 5px;
-                background: red;
-                left: 100%;
-                top: 0;
-                width: 20px;
-                margin-left: -10px;
-                font-size: 10px;
-                margin-top: -5px;
+            @media only screen and (max-width: 800px) {
+                main section p img {
+                    width: 100%;
+                    margin: 0;
+                }
             }
         </style>
     </head>

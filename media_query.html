@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+
+    <style>
+
+        .box {
+            background: green;
+            height: 100px;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .box {
+                background: orange;
+            }
+        }
+
+        @media only screen and (max-width: 640px) {
+            .box {
+                background: blue;
+            }
+        }
+
+        @media only screen and (max-width:320px) {
+            .box {
+                background: red;
+            }
+        }
+
+        .child {
+            float: left;
+            width: 50%;
+            height: 50px;
+        }
+
+        .green {
+            background: green;
+        }
+        .blue {
+            background: blue;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .child {
+                width: 100%;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="parent">
+        <div class="child green">1</div>
+        <div class="child blue">2</div>
+    </div>
+
+</body>
+</html>

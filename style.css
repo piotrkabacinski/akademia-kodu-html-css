@@ -81,3 +81,20 @@ main section p img {
 footer {
     padding: 5px;
 }
+
+.article {
+    display: inline-block;
+    position: relative;
+}
+
+.article .counter {
+    position: absolute;
+    padding: 5px;
+    background: red;
+    left: 100%;
+    top: 0;
+    width: 20px;
+    margin-left: -10px;
+    font-size: 10px;
+    margin-top: -5px;
+}
