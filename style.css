@@ -30,6 +30,9 @@ header nav a {
     color: #fff;
     background: #0a700a;
     padding: 5px;
+    margin: 0 10px;
+    /* margin-right: 5px;
+    margin-left: 5px; */
 }
 
 header nav a:hover {

@@ -5,13 +5,37 @@
         <meta charset="UTF-8">
         <title>AutoBlog.pl</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+
+        <style>
+            .article {
+                display: inline-block;
+                position: relative;
+            }
+
+            .article .counter {
+                position: absolute;
+                padding: 5px;
+                background: red;
+                left: 100%;
+                top: 0;
+                width: 20px;
+                margin-left: -10px;
+                font-size: 10px;
+                margin-top: -5px;
+            }
+        </style>
     </head>
     <body>
 
         <header>
             <h1>AutoBlog</h1>
             <nav>
-                <a href="index.html">Strona główna</a>
+                <a href="index.html" class="article">
+                    Strona główna
+                    <div class="counter">
+                        2
+                    </div>
+                </a>
                 <a href="wspolpraca.html">Współpraca</a>
                 <a href="kontakt.html">Kontakt</a>
             </nav>

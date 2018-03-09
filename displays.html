@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        /* * {
+            box-sizing: border-box;
+        } */
+
+        .displays-wrapper {
+            position: relative;
+            background: blue;
+        }
+
+        .displays-wrapper div {
+            background: yellow;
+        }
+
+        /* 100% szerokości */
+        .display-block {
+            display: block;
+        }
+
+        .display-inline-block {
+            display: inline-block;
+            width: 50%;
+            float: left;
+        }
+
+        .display-inline {
+            display: inline;
+        }
+
+        .border {
+            border: 5px dotted green;
+        }
+
+        .display-none {
+            display: none;
+        }
+
+        .orange {
+            background: orange !important;
+        }
+
+        .margin-top {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="displays-wrapper">
+        <div class="display-inline-block border">
+            Hello inline!
+        </div>
+        <div class="display-inline-block orange">
+            Hello inline #2!
+        </div>
+    </div>
+
+    <div class="displays-wrapper">
+        <div class="display-none">
+            Hello none!
+        </div>
+    </div> -->
+
+    <div class="displays-wrapper">
+        <div class="display-inline-block margin-top yellow">Hello inline-block!</div>
+        <div class="display-inline margin-top orange">Hello inline!</div>
+        <span>Hello world!</span>
+    </div>
+
+</body>
+</html>
